@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: my_source
+    schema: dbo
+    tables:
+      - name: publicholidays
+      - name: salesdata
+      - name: salesnewdata
+
+
+models:
+  - name: my_first_dbt_model
+    description: "This model reads the public holidays data"
+    columns:
+      - name: id
+        description: "Holiday ID"
+      - name: holiday_name
+        description: "Name of the holiday"
