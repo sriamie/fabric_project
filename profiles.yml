@@ -1,0 +1,11 @@
+fabric_project:
+  target: fabric-dev
+  outputs:
+    fabric-dev:
+      type: fabric
+      authentication: ActiveDirectoryInteractive
+      driver: ODBC Driver 18 for SQL Server
+      host: te7zow67o7vuxmt5vighbocifq-sr6fw3uowubengmolp77xuqp2q.datawarehouse.fabric.microsoft.com
+      database: dbt_fabric
+      schema: dbo
+      
